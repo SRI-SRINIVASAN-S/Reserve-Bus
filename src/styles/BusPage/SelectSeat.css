@@ -1,0 +1,27 @@
+.seat-position {
+    margin: 5px 0px 5px 0px;
+    font-weight: bold;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10%;
+    grid-gap: 10px 35px;
+    padding: 10px 15px;
+    width: 59%;
+    border: 2px solid rgba(154, 154, 154, 0.644);
+}
+
+.grid-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 0px;
+    border: 3px solid rgb(154, 154, 154);
+}
+
+.down-seat {
+    grid-column-start: 3;
+}
+
+.grid-container>div:hover {
+    background-color: rgba(122, 122, 122, 0.368);
+}

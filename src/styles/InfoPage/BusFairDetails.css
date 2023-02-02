@@ -1,0 +1,85 @@
+.buses-details {
+    border: 1px solid rgb(184, 181, 181);
+    border-radius: 15px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    width: 65%;
+    padding: 1px 20px 15px 20px;
+    margin-left: 4%;
+    display: inline-block;
+}
+
+.busesname_details {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+p {
+    margin: 0%;
+    padding-bottom: 5px;
+}
+
+.busesname_details h2 {
+    margin: 1% 0%;
+    padding: 5px 0px;
+}
+
+.view-seats {
+    padding: 4px 40px;
+    background-color: orange;
+    color: white;
+    font-size: large;
+    font-weight: 100;
+    border: 2px solid orange;
+    border-radius: 10px;
+    margin-top: 2%
+}
+
+.fair-details {
+    border: 1px solid rgb(184, 181, 181);
+    border-radius: 15px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    padding-left: 2%;
+    padding-right: 2%;
+    float: right;
+    margin-right: 2%;
+}
+
+.fair-amount {
+    color: rgb(0, 0, 0);
+    float: right;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.payment-btn {
+    padding: 10px 85px;
+    background-color: orange;
+    color: white;
+    font-size: larger;
+    font-weight: lighter;
+    margin: 3% 0%;
+}
+
+.payment-btn-color {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.timing {
+    margin: 0%;
+}
+
+.place {
+    display: flex;
+    gap: 25%;
+    padding-top: 1%;
+}
+
+.place-from {
+    margin: 0%;
+}
+
+.place-to {
+    margin: 0%;
+}

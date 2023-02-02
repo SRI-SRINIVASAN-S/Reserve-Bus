@@ -1,0 +1,44 @@
+.bus-details {
+    border: 1px solid rgb(184, 181, 181);
+    border-radius: 15px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    padding: 1px 3px 10px 30px;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.buses-type {
+    margin: 0%;
+    padding-bottom: 5px;
+}
+
+.busname-details h2 {
+    margin: 12px 0px;
+    padding: 1px 0px;
+}
+
+.trip-cost {
+    margin-top: -7%;
+    margin-left: 85%;
+}
+
+.trip-cost h4 {
+    margin: unset;
+    font-size: larger;
+}
+
+.trip-cost h3 {
+    margin: 8px 0px 0px 15px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.seats-btn {
+    margin-left: 84%;
+    margin-top: 2px;
+    font-size: medium;
+    padding: 10px 10px;
+    background-color: orange;
+    border: 2px solid white;
+    color: white;
+}

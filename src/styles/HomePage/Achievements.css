@@ -1,0 +1,45 @@
+.heading {
+    text-align: center;
+    font-weight: bolder;
+    font-size:30px;
+    margin: 2%;
+    word-spacing: 1px;
+}
+
+.card {
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    height: 1000%;
+}
+
+.small_images {
+    margin-left: 8%;
+}
+
+.small_images ul {
+    list-style: none;
+    display: flex;
+    gap: 200px;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.small_images li {
+    font-size: large;
+    color: #000000;
+}
+
+h5{
+    text-align: center;
+    font-weight: bold;
+    font-size:larger;
+    padding-top: 1%;
+    margin: 0%;
+}
+
+.small_heading_one {
+    text-align: center;
+    font-size: large;
+    font-weight: lighter;
+    color: gray;
+}

@@ -1,0 +1,61 @@
+.head {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    word-spacing: 1px;
+}
+
+.head ul {
+    list-style: none;
+}
+
+.customers_list {
+    background-color: rgb(242, 242, 242);
+    padding: 1%;
+}
+
+.card_customers {
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    height: 1000%;
+}
+
+.customers_list ul {
+    list-style: none;
+    display: flex;
+    gap: 200px;
+    margin: 10px 0 10px 0;
+    width: 2%;
+}
+
+.customers_list li {
+    background: #ffffff;
+    color: #000000;
+    padding: 30%;
+}
+
+.customer_name {
+    white-space: nowrap;
+    font-size: 25px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.customer_since {
+    white-space: nowrap;
+    font-size: large;
+    font-weight: lighter;
+    color: #919191;
+    margin: 0%;
+    padding-top: 2%;
+}
+
+.customer_review {
+    white-space: nowrap;
+    margin: 0%;
+    padding-top: 2%;
+}
+
+.customers-review-heading{
+    margin: 2%;
+}

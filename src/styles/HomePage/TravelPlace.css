@@ -1,0 +1,55 @@
+.background_img {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.travel_place {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    margin: auto;
+    min-width: 80%;
+    font-weight: bold;
+    font-size: xx-large;
+    color: #FFA500;
+}
+
+.search_btn {
+    margin-top: 1%;
+    background-color: orange;
+    padding: 1% 4%;
+    position: relative;
+    left: 28%;
+    border: solid 1px rgb(255, 255, 255);
+    font-size: large;
+    font-weight: lighter;
+}
+
+.search_btn:hover{
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.search_btn a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.search_btn a:hover {
+    color: #000000;
+}
+
+#from-place {
+    background-color: rgb(255, 255, 255);
+    width: 15%;
+}
+
+#to-place {
+    background-color: rgb(255, 255, 255);
+    width: 15%;
+}
+
+option {
+    background-color: black;
+    font-size: medium;
+    color: white;
+}

@@ -1,0 +1,19 @@
+.parent-content {
+    display: flex;
+    padding-top: 1%;
+    align-items: flex-start;
+    margin-left: 4%;
+}
+
+.child-content-one {
+    display: flex;
+    flex-direction: column;
+}
+
+.child-content-two {
+    display: flex;
+    flex-direction: column;
+    min-width: 99%;
+    align-items: center;
+    margin-bottom: 1%;
+}
